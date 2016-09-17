@@ -33,6 +33,7 @@ func whichColors(item string, colorsTest[] string)([]string){
                         r = append(r, element)
                 }
         }
+        fmt.Printf("   Adding this color to temp tree: %f\n", r)
         return r
 }
 
