@@ -28,9 +28,17 @@ func readLines(path string) ([]string, error) {
 func whichColors(item string, colorsTest[] string)([]string){
         var r[] string
         var itemSplit[] string = s.Split(item, ";")
+        var itemSplit2 []string = s.Split(itemSplit[3], " ")
         for _,element := range colorsTest {
-                if s.Contains(element, itemSplit[3]) {
-                        r = append(r, element)
+                for _,e := range itemSplit2 {
+                        if s.Replace(e, " ", "", -1) != "" {
+                                var test[] string = s.Split(s.Replace(s.TrimLeft(element, ";"), ";", "; ", -1), ";")
+                                if s.Replace(e, " ", "", -1) == s.Replace(test[0], " ", "", -1) {
+                                        fmt.Printf("   Checking this color : %f\n", e)
+                                        fmt.Printf("   Built test string   : %f\n", test[0])
+                                        r = append(r, element)
+                                }
+                        }
                 }
         }
         fmt.Printf("   Adding this color to temp tree: %f\n", r)
@@ -42,7 +50,8 @@ func howMany(item string, colorsTest[] string)(int){
         var itemSplit[] string = s.Split(item, ";")
         for _,element := range colorsTest {
                 if s.Contains(element, itemSplit[3]) {
-                        fmt.Printf("   Checking this element : %f\n", element)
+                        //fmt.Printf("   Checking this element : %f\n", element)
+                        //fmt.Printf("   Checking this element : %f\n", e)
                         r++
                 }
         }
@@ -140,11 +149,10 @@ func generate (config string)(error){
                                 }else if containsAny(element, COLORS) {
                                         var count int = howMany(element, COLORS)
                                         var whichcolors[] string = whichColors(element, COLORS)
-                                        fmt.Printf("-   Colors: %f\n", whichcolors)
                                         fmt.Printf("-   Count: %f\n", count)
                                         r := rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
                                         var times int = r.Intn(count) + 1
-                                        for _, colorcleaned := range COLORS {
+                                        for _, colorcleaned := range whichcolors {
                                                 var the_color = s.Split(colorcleaned, ";")                                                //if s.Contains(colorcleaned, splitElement[3]){
                                                         var pR,_ = strconv.ParseInt(s.Replace(the_color[2], "R ", "", -1), 10, 8)
                                                         R = uint8(pR)
@@ -163,6 +171,7 @@ func generate (config string)(error){
                                                         if times <= 0 {
                                                                 break
                                                         }
+                                                        fmt.Printf("-   Color: %f\n", colorcleaned)
                                         }
                                 }
                         }

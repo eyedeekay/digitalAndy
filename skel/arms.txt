@@ -41,226 +41,226 @@ color; brick;R 202;G 0;B 42;T 255
 color; lava;R 255;G 17;B 0;T 255
 color; fire;R 161;G 40;B 48;T 255
 
-point;X 5;Y 7; green
-point;X 6;Y 7; green
-point;X 7;Y 7; green
-point;X 8;Y 7; green
+point;X 5;Y 7; blue
+point;X 6;Y 7; blue
+point;X 7;Y 7; blue
+point;X 8;Y 7; blue
 
-point;X 5;Y 8; green
-point;X 6;Y 8; green
-point;X 7;Y 8; green
-point;X 8;Y 8; green
+point;X 5;Y 8; blue
+point;X 6;Y 8; blue
+point;X 7;Y 8; blue
+point;X 8;Y 8; blue
 
-point;X 5;Y 9; green
-point;X 6;Y 9; green
-point;X 7;Y 9; green
-point;X 8;Y 9; green
+point;X 5;Y 9; blue
+point;X 6;Y 9; blue
+point;X 7;Y 9; blue
+point;X 8;Y 9; blue
 
-point;X 5;Y 10; green
-point;X 6;Y 10; green
-point;X 7;Y 10; green
-point;X 8;Y 10; green
+point;X 5;Y 10; blue
+point;X 6;Y 10; blue
+point;X 7;Y 10; blue
+point;X 8;Y 10; blue
 
-point;X 5;Y 11; green
-point;X 6;Y 11; green
-point;X 7;Y 11; green
-point;X 8;Y 11; green
+point;X 5;Y 11; blue
+point;X 6;Y 11; blue
+point;X 7;Y 11; blue
+point;X 8;Y 11; blue
 
-point;X 5;Y 12; red green
-point;X 6;Y 12; red green
-point;X 7;Y 12; red green
-point;X 8;Y 12; red green
+point;X 5;Y 12; red blue
+point;X 6;Y 12; red blue
+point;X 7;Y 12; red blue
+point;X 8;Y 12; red blue
 
-point;X 5;Y 13; red green
-point;X 6;Y 13; red green
-point;X 7;Y 13; red green
-point;X 8;Y 13; red green
+point;X 5;Y 13; red blue
+point;X 6;Y 13; red blue
+point;X 7;Y 13; red blue
+point;X 8;Y 13; red blue
 
-point;X 5;Y 14; green
-point;X 6;Y 14; green
-point;X 7;Y 14; green
-point;X 8;Y 14; green
+point;X 5;Y 14; blue
+point;X 6;Y 14; blue
+point;X 7;Y 14; blue
+point;X 8;Y 14; blue
 
-point;X 5;Y 15; green
-point;X 6;Y 15; green
-point;X 7;Y 15; green
-point;X 8;Y 15; green
+point;X 5;Y 15; blue
+point;X 6;Y 15; blue
+point;X 7;Y 15; blue
+point;X 8;Y 15; blue
 
-point;X 5;Y 16; green
-point;X 6;Y 16; green
-point;X 7;Y 16; green
-point;X 8;Y 16; green
+point;X 5;Y 16; blue
+point;X 6;Y 16; blue
+point;X 7;Y 16; blue
+point;X 8;Y 16; blue
 
-point;X 5;Y 17; green
-point;X 6;Y 17; green
-point;X 7;Y 17; green
-point;X 8;Y 17; green
+point;X 5;Y 17; blue
+point;X 6;Y 17; blue
+point;X 7;Y 17; blue
+point;X 8;Y 17; blue
 
-point;X 5;Y 18; green
-point;X 6;Y 18; green
-point;X 7;Y 18; green
-point;X 8;Y 18; green
+point;X 5;Y 18; blue
+point;X 6;Y 18; blue
+point;X 7;Y 18; blue
+point;X 8;Y 18; blue
 
-point;X 5;Y 19; green
-point;X 6;Y 19; green
-point;X 7;Y 19; green
-point;X 8;Y 19; green
+point;X 5;Y 19; blue
+point;X 6;Y 19; blue
+point;X 7;Y 19; blue
+point;X 8;Y 19; blue
 
-point;X 5;Y 20; green
-point;X 6;Y 20; green
-point;X 7;Y 20; green
-point;X 8;Y 20; green
+point;X 5;Y 20; blue
+point;X 6;Y 20; blue
+point;X 7;Y 20; blue
+point;X 8;Y 20; blue
 
-point;X 5;Y 21; green
-point;X 6;Y 21; green
-point;X 7;Y 21; green
-point;X 8;Y 21; green
+point;X 5;Y 21; blue
+point;X 6;Y 21; blue
+point;X 7;Y 21; blue
+point;X 8;Y 21; blue
 
-point;X 5;Y 22; green
-point;X 6;Y 22; green
-point;X 7;Y 22; green
-point;X 8;Y 22; green
+point;X 5;Y 22; blue
+point;X 6;Y 22; blue
+point;X 7;Y 22; blue
+point;X 8;Y 22; blue
 
-point;X 5;Y 23; green
-point;X 6;Y 23; green
-point;X 7;Y 23; green
-point;X 8;Y 23; green
+point;X 5;Y 23; blue
+point;X 6;Y 23; blue
+point;X 7;Y 23; blue
+point;X 8;Y 23; blue
 
-point;X 5;Y 24; green
-point;X 6;Y 24; green
-point;X 7;Y 24; green
-point;X 8;Y 24; green
+point;X 5;Y 24; blue
+point;X 6;Y 24; blue
+point;X 7;Y 24; blue
+point;X 8;Y 24; blue
 
-point;X 5;Y 25; red green
-point;X 6;Y 25; red green
-point;X 7;Y 25; red green
-point;X 8;Y 25; red green
+point;X 5;Y 25; red blue
+point;X 6;Y 25; red blue
+point;X 7;Y 25; red blue
+point;X 8;Y 25; red blue
 
-point;X 5;Y 26; red green
-point;X 6;Y 26; red green
-point;X 7;Y 26; red green
-point;X 8;Y 26; red green
+point;X 5;Y 26; red blue
+point;X 6;Y 26; red blue
+point;X 7;Y 26; red blue
+point;X 8;Y 26; red blue
 
-point;X 5;Y 27; red green
-point;X 6;Y 27; red green
-point;X 7;Y 27; red green
-point;X 8;Y 27; red green
+point;X 5;Y 27; red blue
+point;X 6;Y 27; red blue
+point;X 7;Y 27; red blue
+point;X 8;Y 27; red blue
 
-point;X 5;Y 28; red green
-point;X 6;Y 28; red green
-point;X 7;Y 28; red green
-point;X 8;Y 28; red green
+point;X 5;Y 28; red blue
+point;X 6;Y 28; red blue
+point;X 7;Y 28; red blue
+point;X 8;Y 28; red blue
 
 
 
-point;X 23;Y 7; green
-point;X 24;Y 7; green
-point;X 25;Y 7; green
-point;X 26;Y 7; green
+point;X 23;Y 7; blue
+point;X 24;Y 7; blue
+point;X 25;Y 7; blue
+point;X 26;Y 7; blue
 
-point;X 23;Y 8; green
-point;X 24;Y 8; green
-point;X 25;Y 8; green
-point;X 26;Y 8; green
+point;X 23;Y 8; blue
+point;X 24;Y 8; blue
+point;X 25;Y 8; blue
+point;X 26;Y 8; blue
 
-point;X 23;Y 9; green
-point;X 24;Y 9; green
-point;X 25;Y 9; green
-point;X 26;Y 9; green
+point;X 23;Y 9; blue
+point;X 24;Y 9; blue
+point;X 25;Y 9; blue
+point;X 26;Y 9; blue
 
-point;X 23;Y 10; green
-point;X 24;Y 10; green
-point;X 25;Y 10; green
-point;X 26;Y 10; green
+point;X 23;Y 10; blue
+point;X 24;Y 10; blue
+point;X 25;Y 10; blue
+point;X 26;Y 10; blue
 
-point;X 23;Y 11; green
-point;X 24;Y 11; green
-point;X 25;Y 11; green
-point;X 26;Y 11; green
+point;X 23;Y 11; blue
+point;X 24;Y 11; blue
+point;X 25;Y 11; blue
+point;X 26;Y 11; blue
 
-point;X 23;Y 12; green
-point;X 24;Y 12; green
-point;X 25;Y 12; green
-point;X 26;Y 12; green
+point;X 23;Y 12; blue
+point;X 24;Y 12; blue
+point;X 25;Y 12; blue
+point;X 26;Y 12; blue
 
-point;X 23;Y 13; green
-point;X 24;Y 13; green
-point;X 25;Y 13; green
-point;X 26;Y 13; green
+point;X 23;Y 13; blue
+point;X 24;Y 13; blue
+point;X 25;Y 13; blue
+point;X 26;Y 13; blue
 
-point;X 23;Y 14; green
-point;X 24;Y 14; green
-point;X 25;Y 14; green
-point;X 26;Y 14; green
+point;X 23;Y 14; blue
+point;X 24;Y 14; blue
+point;X 25;Y 14; blue
+point;X 26;Y 14; blue
 
-point;X 23;Y 15; green
-point;X 24;Y 15; green
-point;X 25;Y 15; green
-point;X 26;Y 15; green
+point;X 23;Y 15; blue
+point;X 24;Y 15; blue
+point;X 25;Y 15; blue
+point;X 26;Y 15; blue
 
-point;X 23;Y 16; green
-point;X 24;Y 16; green
-point;X 25;Y 16; green
-point;X 26;Y 16; green
+point;X 23;Y 16; blue
+point;X 24;Y 16; blue
+point;X 25;Y 16; blue
+point;X 26;Y 16; blue
 
-point;X 23;Y 17; green
-point;X 24;Y 17; green
-point;X 25;Y 17; green
-point;X 26;Y 17; green
+point;X 23;Y 17; blue
+point;X 24;Y 17; blue
+point;X 25;Y 17; blue
+point;X 26;Y 17; blue
 
-point;X 23;Y 18; green
-point;X 24;Y 18; green
-point;X 25;Y 18; green
-point;X 26;Y 18; green
+point;X 23;Y 18; blue
+point;X 24;Y 18; blue
+point;X 25;Y 18; blue
+point;X 26;Y 18; blue
 
-point;X 23;Y 19; green
-point;X 24;Y 19; green
-point;X 25;Y 19; green
-point;X 26;Y 19; green
+point;X 23;Y 19; blue
+point;X 24;Y 19; blue
+point;X 25;Y 19; blue
+point;X 26;Y 19; blue
 
-point;X 23;Y 20; green
-point;X 24;Y 20; green
-point;X 25;Y 20; green
-point;X 26;Y 20; green
+point;X 23;Y 20; blue
+point;X 24;Y 20; blue
+point;X 25;Y 20; blue
+point;X 26;Y 20; blue
 
-point;X 23;Y 21; green
-point;X 24;Y 21; green
-point;X 25;Y 21; green
-point;X 26;Y 21; green
+point;X 23;Y 21; blue
+point;X 24;Y 21; blue
+point;X 25;Y 21; blue
+point;X 26;Y 21; blue
 
-point;X 23;Y 22; green
-point;X 24;Y 22; green
-point;X 25;Y 22; green
-point;X 26;Y 22; green
+point;X 23;Y 22; blue
+point;X 24;Y 22; blue
+point;X 25;Y 22; blue
+point;X 26;Y 22; blue
 
-point;X 23;Y 23; green
-point;X 24;Y 23; green
-point;X 25;Y 23; green
-point;X 26;Y 23; green
+point;X 23;Y 23; blue
+point;X 24;Y 23; blue
+point;X 25;Y 23; blue
+point;X 26;Y 23; blue
 
-point;X 23;Y 24; green
-point;X 24;Y 24; green
-point;X 25;Y 24; green
-point;X 26;Y 24; green
+point;X 23;Y 24; blue
+point;X 24;Y 24; blue
+point;X 25;Y 24; blue
+point;X 26;Y 24; blue
 
-point;X 23;Y 25; red green
-point;X 24;Y 25; red green
-point;X 25;Y 25; red green
-point;X 26;Y 25; red green
+point;X 23;Y 25; red blue
+point;X 24;Y 25; red blue
+point;X 25;Y 25; red blue
+point;X 26;Y 25; red blue
 
-point;X 23;Y 26; red green
-point;X 24;Y 26; red green
-point;X 25;Y 26; red green
-point;X 26;Y 26; red green
+point;X 23;Y 26; red blue
+point;X 24;Y 26; red blue
+point;X 25;Y 26; red blue
+point;X 26;Y 26; red blue
 
-point;X 23;Y 27; red green
-point;X 24;Y 27; red green
-point;X 25;Y 27; red green
-point;X 26;Y 27; red green
+point;X 23;Y 27; red blue
+point;X 24;Y 27; red blue
+point;X 25;Y 27; red blue
+point;X 26;Y 27; red blue
 
-point;X 23;Y 28; red green
-point;X 24;Y 28; red green
-point;X 25;Y 28; red green
-point;X 26;Y 28; red green
+point;X 23;Y 28; red blue
+point;X 24;Y 28; red blue
+point;X 25;Y 28; red blue
+point;X 26;Y 28; red blue
 
 
