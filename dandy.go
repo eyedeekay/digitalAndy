@@ -148,31 +148,35 @@ func selectColor(element string, colorlist [][]string)([]uint8){
 	return elect
 }
 
-func selectPoint(element string)([]int){
+func selectPoint(element string)([][]int){
 	//fmt.Printf("%v\n", element)
 	var pointCoords []string
-	var coords []int
+	var coords [][]int
 	if strings.Contains(element, "point") {
 		cleaned := strings.Replace(element, "point", "", -1)
+		var tcoords []int
 		pointCoords = splitWord(cleaned)
 		X,_ := strconv.ParseInt(pointCoords[0], 10, 8)
-		coords = append(coords, int(X))
+		tcoords = append(tcoords, int(X))
 		Y,_ := strconv.ParseInt(pointCoords[1], 10, 8)
-		coords = append(coords, int(Y))
+		tcoords = append(tcoords, int(Y))
+		coords = append(coords, tcoords)
 	}else if strings.Contains(element, "Point") {
 		cleaned := strings.Replace(element, "Point", "", -1)
+		var tcoords []int
 		pointCoords = splitWord(cleaned)
 		X,_ := strconv.ParseInt(pointCoords[0], 10, 8)
-		coords = append(coords, int(X))
+		tcoords = append(tcoords, int(X))
 		Y,_ := strconv.ParseInt(pointCoords[1], 10, 8)
-		coords = append(coords, int(Y))
+		tcoords = append(tcoords, int(Y))
+		coords = append(coords, tcoords)
 	}
 	return coords
 }
 
-func selectRect(element string)([]int){
+func selectRect(element string)([][]int){
 	var pointCoords []string
-	var coords []int
+	var coords [][]int
 	if strings.Contains(element, "rect") {
 		cleaned := strings.Replace(element, "rect", "", -1)
 		pointCoords = splitWord(cleaned)
@@ -182,8 +186,10 @@ func selectRect(element string)([]int){
 		pH,_ := strconv.ParseInt(pointCoords[3], 10, 8)
 		for Y := int(pY); Y < int(pY) + int(pH); Y++ {
 			for X := int(pX); X < int(pX) + int(pW); X++ {
-				coords = append(coords, X)
-				coords = append(coords, Y)
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
 			}
 		}
 	}else if strings.Contains(element, "Rect") {
@@ -195,8 +201,10 @@ func selectRect(element string)([]int){
 		pH,_ := strconv.ParseInt(pointCoords[3], 10, 8)
 		for Y := int(pY); Y < int(pY) + int(pH); Y++ {
 			for X := int(pX); X < int(pX) + int(pW); X++ {
-				coords = append(coords, X)
-				coords = append(coords, Y)
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
 			}
 		}
 	}
@@ -217,9 +225,9 @@ func Round(val int) (int) {
 	return int(newVal)
 }
 
-func selectRound(element string)([]int){
+func selectRound(element string)([][]int){
 	var pointCoords []string
-	var coords []int
+	var coords [][]int
 	if strings.Contains(element, "round") {
 		cleaned := strings.Replace(element, "round", "", -1)
 		pointCoords = splitWord(cleaned)
@@ -229,14 +237,18 @@ func selectRound(element string)([]int){
 		pH,_ := strconv.ParseInt(pointCoords[3], 10, 8)
 		for Y := int(pY) + Round(int(pY) / 2); Y < int(pY) + (int(pH) / 2); Y++ {
 			for X := int(pX) + Round(int(pX) / 2); X < int(pX) + (int(pW) / 2); X++ {
-				coords = append(coords, X)
-				coords = append(coords, Y)
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
 			}
 		}
 		for Y := int(pY); Y < int(pY) + Round(int(pH) / 3); Y++ {
 			for X := int(pX); X < int(pX) + Round(int(pW) / 3); X++ {
-				coords = append(coords, X)
-				coords = append(coords, Y)
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
 			}
 		}
 	}else if strings.Contains(element, "Round") {
@@ -248,14 +260,18 @@ func selectRound(element string)([]int){
 		pH,_ := strconv.ParseInt(pointCoords[3], 10, 8)
 		for Y := int(pY) + Round(int(pY) / 2); Y < int(pY) + Round(int(pH) / 2); Y++ {
 			for X := int(pX) + Round(int(pX) / 2); X < int(pX) + Round(int(pW) / 2); X++ {
-				coords = append(coords, X)
-				coords = append(coords, Y)
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
 			}
 		}
 		for Y := int(pY); Y < int(pY) + Round(int(pH) / 3); Y++ {
 			for X := int(pX); X < int(pX) + Round(int(pW) / 3); X++ {
-				coords = append(coords, X)
-				coords = append(coords, Y)
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
 			}
 		}
 	}
@@ -269,9 +285,9 @@ func runSkeleton(skel string, colorlist *[][]string)(error){
 	return err
 }
 
-func runLine(line string, colorlist *[][]string)([]uint8, [][]int){
+func runLine(line string, colorlist *[][]string)([]uint8, [][][]int){
 	//*colorlist = append(*colorlist, loadColor(line))
-	var coordResult [][]int
+	var coordResult [][][]int
 	var colorResult []uint8
 	seg := splitString(line)
 	for _, word := range seg {
@@ -303,8 +319,9 @@ func runLine(line string, colorlist *[][]string)([]uint8, [][]int){
 func RandStringBytes() string {
 	const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 	b := make([]byte, 10)
+	r := rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
 	for i := range b {
-		b[i] = letterBytes[rand.Intn(len(letterBytes))]
+		b[i] = letterBytes[r.Intn(len(letterBytes))]
 	}
 	return string(b)
 }
@@ -326,7 +343,9 @@ func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 						if len(point) > 0 {
 							if len(c) > 0 {
 								fmt.Printf("%v", "imageset")
-								img.Set(point[0], point[1], color.RGBA{c[0], c[1], c[2], c[3]})
+								for _, x := range point {
+									img.Set(x[0], x[1], color.RGBA{c[0], c[1], c[2], c[3]})
+								}
 							}
 						}
 					}
@@ -338,7 +357,7 @@ func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 		}
 		result = sz - i
 	}
-	var name =  RandStringBytes()+ ".png"
+	var name =  "output/" + RandStringBytes()+ ".png"
         f, _ := os.OpenFile(name, os.O_WRONLY|os.O_CREATE, 0600)
         defer f.Close()
         png.Encode(f, img)
