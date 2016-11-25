@@ -119,13 +119,13 @@ func formatColor(picked []string)([]uint8){
 		fmt.Printf("%v", i)
 	}
 	fmt.Printf("%v\n", " ")
-	var pR,_ = strconv.ParseInt(strings.Replace(picked[0], "R ", "", -1), 10, 8)
+	var pR,_ = strconv.ParseUint(picked[1],10,8)
 	result = append(result, uint8(pR))
-	var pG,_ = strconv.ParseInt(strings.Replace(picked[1], "G ", "", -1), 10, 8)
+	var pG,_ = strconv.ParseUint(picked[2],10,8)
 	result = append(result, uint8(pG))
-	var pB,_ = strconv.ParseInt(strings.Replace(picked[2], "B ", "", -1), 10, 8)
+	var pB,_ = strconv.ParseUint(picked[3],10,8)
 	result = append(result, uint8(pB))
-	var pT,_ = strconv.ParseInt(strings.Replace(picked[3], "T ", "", -1), 10, 8)
+	var pT,_ = strconv.ParseUint(picked[4],10,8)
 	result = append(result, uint8(pT))
 	return result
 }
@@ -317,19 +317,17 @@ func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 		//fmt.Printf("%v\n", item)
 		_, temp := loadSkeleton(item)
 		if temp != nil {
-			
 			for _,i := range temp {
 				c,p := runLine(i, colorlist)
 				fmt.Printf("%v", p)
 				fmt.Printf("%v\n", c)
 				if len(p) > 0 {
-					fmt.Printf("%v\n", len(p))
 					for _, point := range p {
 						if len(point) > 0 {
-						if len(c) > 0 {
-							fmt.Printf("%v", "imageset")
-							img.Set(point[0], point[1], color.RGBA{c[0], c[1], c[2], c[3]})
-						}
+							if len(c) > 0 {
+								fmt.Printf("%v", "imageset")
+								img.Set(point[0], point[1], color.RGBA{c[0], c[1], c[2], c[3]})
+							}
 						}
 					}
 				}
