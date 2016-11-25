@@ -1,0 +1,1216 @@
+config.txg
+<nil>skel/colors.txt
+<nil>lcolor green 0 255 0 255
+loading color : green 0 255 0 255
+
+[][]
+lcolor blue 0 0 255 255
+loading color : blue 0 0 255 255
+
+[][]
+lcolor red 255 0 0 255
+loading color : red 255 0 0 255
+
+[][]
+lcolor darkstone 100 100 100 255
+loading color : darkstone 100 100 100 255
+
+[][]
+lcolor stone 146 146 146 255
+loading color : stone 146 146 146 255
+
+[][]
+lcolor lightstone 190 190 190 255
+loading color : lightstone 190 190 190 255
+
+[][]
+lcolor darkearth 105 93 84 255
+loading color : darkearth 105 93 84 255
+
+[][]
+lcolor earth 145 134 126 255
+loading color : earth 145 134 126 255
+
+[][]
+lcolor lightearth 189 182 176 255
+loading color : lightearth 189 182 176 255
+
+[][]
+lcolor clay 81 62 62 255
+loading color : clay 81 62 62 255
+
+[][]
+lcolor plum 132 109 116 255
+loading color : plum 132 109 116 255
+
+[][]
+lcolor violet 183 166 173 255
+loading color : violet 183 166 173 255
+
+[][]
+lcolor moss 60 91 89 255
+loading color : moss 60 91 89 255
+
+[][]
+lcolor water 79 141 151 255
+loading color : water 79 141 151 255
+
+[][]
+lcolor mud 116 134 142 255
+loading color : mud 116 134 142 255
+
+[][]
+lcolor black 0 0 0 255
+loading color : black 0 0 0 255
+
+[][]
+lcolor moist 0 62 81 255
+loading color : moist 0 62 81 255
+
+[][]
+lcolor wet 88 121 146 255
+loading color : wet 88 121 146 255
+
+[][]
+lcolor darksand 255 134 66 255
+loading color : darksand 255 134 66 255
+
+[][]
+lcolor redsand 195 54 44 255
+loading color : redsand 195 54 44 255
+
+[][]
+lcolor lightsand 244 220 181 255
+loading color : lightsand 244 220 181 255
+
+[][]
+lcolor dirt 129 108 91 255
+loading color : dirt 129 108 91 255
+
+[][]
+lcolor dust 195 183 172 255
+loading color : dust 195 183 172 255
+
+[][]
+lcolor darkwood 80 40 18 255
+loading color : darkwood 80 40 18 255
+
+[][]
+lcolor medwood 96 54 35 255
+loading color : medwood 96 54 35 255
+
+[][]
+lcolor lightwood 133 87 35 255
+loading color : lightwood 133 87 35 255
+
+[][]
+lcolor accentwood 137 32 52 255
+loading color : accentwood 137 32 52 255
+
+[][]
+lcolor darkflesh 121 63 13 255
+loading color : darkflesh 121 63 13 255
+
+[][]
+lcolor brownflesh 172 112 61 255
+loading color : brownflesh 172 112 61 255
+
+[][]
+lcolor medflesh 195 142 99 255
+loading color : medflesh 195 142 99 255
+
+[][]
+lcolor tanflesh 228 153 105 255
+loading color : tanflesh 228 153 105 255
+
+[][]
+lcolor lightflesh 229 174 134 255
+loading color : lightflesh 229 174 134 255
+
+[][]
+lcolor palelesh 238 197 169 255
+loading color : palelesh 238 197 169 255
+
+[][]
+lcolor darkleaf 110 118 73 255
+loading color : darkleaf 110 118 73 255
+
+[][]
+lcolor greenish 157 151 84 255
+loading color : greenish 157 151 84 255
+
+[][]
+lcolor leaf 199 195 151 255
+loading color : leaf 199 195 151 255
+
+[][]
+lcolor brick 202 0 42 255
+loading color : brick 202 0 42 255
+
+[][]
+lcolor lava 255 17 0 255
+loading color : lava 255 17 0 255
+
+[][]
+lcolor fire 161 40 48 255
+loading color : fire 161 40 48 255
+
+[][]
+skel/arms.txt
+<nil>point 5 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 7]][0 0 0 127]
+1
+imagesetpoint 6 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 7]][0 0 0 127]
+1
+imagesetpoint 7 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 7]][0 0 0 127]
+1
+imagesetpoint 8 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 7]][0 0 0 127]
+1
+imagesetpoint 5 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 8]][0 0 0 127]
+1
+imagesetpoint 6 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 8]][0 0 0 127]
+1
+imagesetpoint 7 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 8]][0 0 0 127]
+1
+imagesetpoint 8 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 8]][0 0 0 127]
+1
+imagesetpoint 5 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 9]][0 0 0 127]
+1
+imagesetpoint 6 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 9]][0 0 0 127]
+1
+imagesetpoint 7 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 9]][0 0 0 127]
+1
+imagesetpoint 8 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 9]][0 0 0 127]
+1
+imagesetpoint 5 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 10]][0 0 0 127]
+1
+imagesetpoint 6 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 10]][0 0 0 127]
+1
+imagesetpoint 7 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 10]][0 0 0 127]
+1
+imagesetpoint 8 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 10]][0 0 0 127]
+1
+imagesetpoint 5 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 11]][0 0 0 127]
+1
+imagesetpoint 6 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 11]][0 0 0 127]
+1
+imagesetpoint 7 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 11]][0 0 0 127]
+1
+imagesetpoint 8 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 11]][0 0 0 127]
+1
+imagesetpoint 5 12
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 12]][0 0 0 127]
+1
+imagesetpoint 6 12
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 12]][0 0 0 127]
+1
+imagesetpoint 7 12
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 12]][0 0 0 127]
+1
+imagesetpoint 8 12
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[8 12]][0 127 0 0]
+1
+imagesetpoint 5 13
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[5 13]][0 127 0 0]
+1
+imagesetpoint 6 13
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 13]][0 0 0 127]
+1
+imagesetpoint 7 13
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 13]][0 0 0 127]
+1
+imagesetpoint 8 13
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 13]][0 0 0 127]
+1
+imagesetpoint 5 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 14]][0 0 0 127]
+1
+imagesetpoint 6 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 14]][0 0 0 127]
+1
+imagesetpoint 7 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 14]][0 0 0 127]
+1
+imagesetpoint 8 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 14]][0 0 0 127]
+1
+imagesetpoint 5 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 15]][0 0 0 127]
+1
+imagesetpoint 6 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 15]][0 0 0 127]
+1
+imagesetpoint 7 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 15]][0 0 0 127]
+1
+imagesetpoint 8 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 15]][0 0 0 127]
+1
+imagesetpoint 5 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 16]][0 0 0 127]
+1
+imagesetpoint 6 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 16]][0 0 0 127]
+1
+imagesetpoint 7 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 16]][0 0 0 127]
+1
+imagesetpoint 8 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 16]][0 0 0 127]
+1
+imagesetpoint 5 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 17]][0 0 0 127]
+1
+imagesetpoint 6 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 17]][0 0 0 127]
+1
+imagesetpoint 7 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 17]][0 0 0 127]
+1
+imagesetpoint 8 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 17]][0 0 0 127]
+1
+imagesetpoint 5 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 18]][0 0 0 127]
+1
+imagesetpoint 6 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 18]][0 0 0 127]
+1
+imagesetpoint 7 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 18]][0 0 0 127]
+1
+imagesetpoint 8 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 18]][0 0 0 127]
+1
+imagesetpoint 5 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 19]][0 0 0 127]
+1
+imagesetpoint 6 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 19]][0 0 0 127]
+1
+imagesetpoint 7 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 19]][0 0 0 127]
+1
+imagesetpoint 8 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 19]][0 0 0 127]
+1
+imagesetpoint 5 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 20]][0 0 0 127]
+1
+imagesetpoint 6 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 20]][0 0 0 127]
+1
+imagesetpoint 7 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 20]][0 0 0 127]
+1
+imagesetpoint 8 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 20]][0 0 0 127]
+1
+imagesetpoint 5 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 21]][0 0 0 127]
+1
+imagesetpoint 6 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 21]][0 0 0 127]
+1
+imagesetpoint 7 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 21]][0 0 0 127]
+1
+imagesetpoint 8 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 21]][0 0 0 127]
+1
+imagesetpoint 5 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 22]][0 0 0 127]
+1
+imagesetpoint 6 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 22]][0 0 0 127]
+1
+imagesetpoint 7 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 22]][0 0 0 127]
+1
+imagesetpoint 8 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 22]][0 0 0 127]
+1
+imagesetpoint 5 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 23]][0 0 0 127]
+1
+imagesetpoint 6 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 23]][0 0 0 127]
+1
+imagesetpoint 7 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 23]][0 0 0 127]
+1
+imagesetpoint 8 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 23]][0 0 0 127]
+1
+imagesetpoint 5 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 24]][0 0 0 127]
+1
+imagesetpoint 6 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 24]][0 0 0 127]
+1
+imagesetpoint 7 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 24]][0 0 0 127]
+1
+imagesetpoint 8 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 24]][0 0 0 127]
+1
+imagesetpoint 5 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 25]][0 0 0 127]
+1
+imagesetpoint 6 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 25]][0 0 0 127]
+1
+imagesetpoint 7 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 25]][0 0 0 127]
+1
+imagesetpoint 8 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[8 25]][0 127 0 0]
+1
+imagesetpoint 5 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 26]][0 0 0 127]
+1
+imagesetpoint 6 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 26]][0 0 0 127]
+1
+imagesetpoint 7 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[7 26]][0 127 0 0]
+1
+imagesetpoint 8 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[8 26]][0 127 0 0]
+1
+imagesetpoint 5 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[5 27]][0 127 0 0]
+1
+imagesetpoint 6 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[6 27]][0 0 0 127]
+1
+imagesetpoint 7 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[7 27]][0 127 0 0]
+1
+imagesetpoint 8 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[8 27]][0 0 0 127]
+1
+imagesetpoint 5 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[5 28]][0 0 0 127]
+1
+imagesetpoint 6 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[6 28]][0 127 0 0]
+1
+imagesetpoint 7 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[7 28]][0 0 0 127]
+1
+imagesetpoint 8 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[8 28]][0 127 0 0]
+1
+imagesetpoint 23 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 7]][0 0 0 127]
+1
+imagesetpoint 24 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 7]][0 0 0 127]
+1
+imagesetpoint 25 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 7]][0 0 0 127]
+1
+imagesetpoint 26 7
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 7]][0 0 0 127]
+1
+imagesetpoint 23 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 8]][0 0 0 127]
+1
+imagesetpoint 24 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 8]][0 0 0 127]
+1
+imagesetpoint 25 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 8]][0 0 0 127]
+1
+imagesetpoint 26 8
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 8]][0 0 0 127]
+1
+imagesetpoint 23 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 9]][0 0 0 127]
+1
+imagesetpoint 24 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 9]][0 0 0 127]
+1
+imagesetpoint 25 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 9]][0 0 0 127]
+1
+imagesetpoint 26 9
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 9]][0 0 0 127]
+1
+imagesetpoint 23 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 10]][0 0 0 127]
+1
+imagesetpoint 24 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 10]][0 0 0 127]
+1
+imagesetpoint 25 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 10]][0 0 0 127]
+1
+imagesetpoint 26 10
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 10]][0 0 0 127]
+1
+imagesetpoint 23 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 11]][0 0 0 127]
+1
+imagesetpoint 24 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 11]][0 0 0 127]
+1
+imagesetpoint 25 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 11]][0 0 0 127]
+1
+imagesetpoint 26 11
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 11]][0 0 0 127]
+1
+imagesetpoint 23 12
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 12]][0 0 0 127]
+1
+imagesetpoint 24 12
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 12]][0 0 0 127]
+1
+imagesetpoint 25 12
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 12]][0 0 0 127]
+1
+imagesetpoint 26 12
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 12]][0 0 0 127]
+1
+imagesetpoint 23 13
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 13]][0 0 0 127]
+1
+imagesetpoint 24 13
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 13]][0 0 0 127]
+1
+imagesetpoint 25 13
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 13]][0 0 0 127]
+1
+imagesetpoint 26 13
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 13]][0 0 0 127]
+1
+imagesetpoint 23 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 14]][0 0 0 127]
+1
+imagesetpoint 24 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 14]][0 0 0 127]
+1
+imagesetpoint 25 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 14]][0 0 0 127]
+1
+imagesetpoint 26 14
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 14]][0 0 0 127]
+1
+imagesetpoint 23 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 15]][0 0 0 127]
+1
+imagesetpoint 24 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 15]][0 0 0 127]
+1
+imagesetpoint 25 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 15]][0 0 0 127]
+1
+imagesetpoint 26 15
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 15]][0 0 0 127]
+1
+imagesetpoint 23 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 16]][0 0 0 127]
+1
+imagesetpoint 24 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 16]][0 0 0 127]
+1
+imagesetpoint 25 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 16]][0 0 0 127]
+1
+imagesetpoint 26 16
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 16]][0 0 0 127]
+1
+imagesetpoint 23 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 17]][0 0 0 127]
+1
+imagesetpoint 24 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 17]][0 0 0 127]
+1
+imagesetpoint 25 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 17]][0 0 0 127]
+1
+imagesetpoint 26 17
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 17]][0 0 0 127]
+1
+imagesetpoint 23 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 18]][0 0 0 127]
+1
+imagesetpoint 24 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 18]][0 0 0 127]
+1
+imagesetpoint 25 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 18]][0 0 0 127]
+1
+imagesetpoint 26 18
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 18]][0 0 0 127]
+1
+imagesetpoint 23 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 19]][0 0 0 127]
+1
+imagesetpoint 24 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 19]][0 0 0 127]
+1
+imagesetpoint 25 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 19]][0 0 0 127]
+1
+imagesetpoint 26 19
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 19]][0 0 0 127]
+1
+imagesetpoint 23 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 20]][0 0 0 127]
+1
+imagesetpoint 24 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 20]][0 0 0 127]
+1
+imagesetpoint 25 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 20]][0 0 0 127]
+1
+imagesetpoint 26 20
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 20]][0 0 0 127]
+1
+imagesetpoint 23 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 21]][0 0 0 127]
+1
+imagesetpoint 24 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 21]][0 0 0 127]
+1
+imagesetpoint 25 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 21]][0 0 0 127]
+1
+imagesetpoint 26 21
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 21]][0 0 0 127]
+1
+imagesetpoint 23 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 22]][0 0 0 127]
+1
+imagesetpoint 24 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 22]][0 0 0 127]
+1
+imagesetpoint 25 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 22]][0 0 0 127]
+1
+imagesetpoint 26 22
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 22]][0 0 0 127]
+1
+imagesetpoint 23 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 23]][0 0 0 127]
+1
+imagesetpoint 24 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 23]][0 0 0 127]
+1
+imagesetpoint 25 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 23]][0 0 0 127]
+1
+imagesetpoint 26 23
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 23]][0 0 0 127]
+1
+imagesetpoint 23 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 24]][0 0 0 127]
+1
+imagesetpoint 24 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 24]][0 0 0 127]
+1
+imagesetpoint 25 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 24]][0 0 0 127]
+1
+imagesetpoint 26 24
+ scolor blue
+color selections :   bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 24]][0 0 0 127]
+1
+imagesetpoint 23 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 25]][0 0 0 127]
+1
+imagesetpoint 24 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 25]][0 0 0 127]
+1
+imagesetpoint 25 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 25]][0 0 0 127]
+1
+imagesetpoint 26 25
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 25]][0 0 0 127]
+1
+imagesetpoint 23 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[23 26]][0 127 0 0]
+1
+imagesetpoint 24 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 26]][0 0 0 127]
+1
+imagesetpoint 25 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[25 26]][0 127 0 0]
+1
+imagesetpoint 26 26
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[26 26]][0 127 0 0]
+1
+imagesetpoint 23 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[23 27]][0 0 0 127]
+1
+imagesetpoint 24 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[24 27]][0 0 0 127]
+1
+imagesetpoint 25 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[25 27]][0 127 0 0]
+1
+imagesetpoint 26 27
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[26 27]][0 0 0 127]
+1
+imagesetpoint 23 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[23 28]][0 127 0 0]
+1
+imagesetpoint 24 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[24 28]][0 127 0 0]
+1
+imagesetpoint 25 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : blueRGBT :  : blue : 0 : 0 : 255 : 255 
+
+[[25 28]][0 0 0 127]
+1
+imagesetpoint 26 28
+ scolor red blue
+color selections :   red bluecolor palette : 39selecting color : redRGBT :  : red : 255 : 0 : 0 : 255 
+
+[[26 28]][0 127 0 0]
+1
+imageset
