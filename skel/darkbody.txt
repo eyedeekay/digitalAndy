@@ -1,0 +1,2 @@
+rect 6 7 20 6; scolor medflesh darkflesh brownflesh;
+rect 11 7 10 7; scolor medflesh tanflesh brownflesh;

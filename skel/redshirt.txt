@@ -1,0 +1,2 @@
+rect 6 12 4 9; scolor red brick lava fire;
+rect 22 12 4 9; scolor red brick lava fire;

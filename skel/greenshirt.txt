@@ -1,0 +1,2 @@
+rect 6 12 4 10; scolor leaf green darkleaf greenish;
+rect 22 12 4 10; scolor leaf green darkleaf greenish;
