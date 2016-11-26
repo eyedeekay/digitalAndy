@@ -1,0 +1,1 @@
+rect 10 12 3 6; scolor tanflesh lightflesh;

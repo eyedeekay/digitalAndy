@@ -1,0 +1,1 @@
+rect 19 12 3 6; scolor darkflesh brownflesh;

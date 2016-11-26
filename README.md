@@ -18,7 +18,12 @@ These directives are:
   * lcolor *colorname* *red green blue alpha* : This is a description of a color
   to load and prepare the program to draw in. It will not be used until paired
   with an scolor directive.
-  * point *X* *Y* : 
-  * rect *X* *Y* *W* *H* : 
-  * round *X* *Y* *W* *H* : 
-  * scolor *list of loaded colors* :
+  * point *X* *Y* : This is the coordinates of a simple point. When paired with
+  an scolor directive on the same line, a point of the scolor will be drawn at
+  the described coordinates.
+  * rect *X* *Y* *W* *H* : This draws a rectangle when paired with an scolor on
+  the same line.
+  * round *X* *Y* *W* *H* : This draws a round-ish graphic when paired with an
+  scolor on the same line.
+  * scolor *list of loaded colors* : This is a list of colors, one of which will
+  be selected per defined region.

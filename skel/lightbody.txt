@@ -1,2 +1,2 @@
-rect 6 7 20 6; scolor medflesh tanflesh lightflesh;
-rect 11 7 10 7; scolor medflesh tanflesh lightflesh;
+rect 6 7 20 6; scolor tanflesh lightflesh;
+rect 11 7 10 7; scolor tanflesh lightflesh;
