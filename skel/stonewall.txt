@@ -1,0 +1,35 @@
+rect 0 0 8 4; scolor darkstone lightstone stone brick;
+rect 0 4 8 4; scolor darkstone lightstone stone brick;
+rect 0 8 8 4; scolor darkstone lightstone stone brick;
+rect 0 12 8 4; scolor darkstone lightstone stone brick;
+rect 0 16 8 4; scolor darkstone lightstone stone brick;
+rect 0 20 8 4; scolor darkstone lightstone stone brick;
+rect 0 24 8 4; scolor darkstone lightstone stone brick;
+rect 0 28 8 4; scolor darkstone lightstone stone brick;
+
+rect 8 0 8 4; scolor darkstone lightstone stone brick;
+rect 8 4 8 4; scolor darkstone lightstone stone brick;
+rect 8 8 8 4; scolor darkstone lightstone stone brick;
+rect 8 12 8 4; scolor darkstone lightstone stone brick;
+rect 8 16 8 4; scolor darkstone lightstone stone brick;
+rect 8 20 8 4; scolor darkstone lightstone stone brick;
+rect 8 24 8 4; scolor darkstone lightstone stone brick;
+rect 8 28 8 4; scolor darkstone lightstone stone brick;
+
+rect 16 0 8 4; scolor darkstone lightstone stone brick;
+rect 16 4 8 4; scolor darkstone lightstone stone brick;
+rect 16 8 8 4; scolor darkstone lightstone stone brick;
+rect 16 12 8 4; scolor darkstone lightstone stone brick;
+rect 16 16 8 4; scolor darkstone lightstone stone brick;
+rect 16 20 8 4; scolor darkstone lightstone stone brick;
+rect 16 24 8 4; scolor darkstone lightstone stone brick;
+rect 16 28 8 4; scolor darkstone lightstone stone brick;
+
+rect 24 0 8 4; scolor darkstone lightstone stone brick;
+rect 24 4 8 4; scolor darkstone lightstone stone brick;
+rect 24 8 8 4; scolor darkstone lightstone stone brick;
+rect 24 12 8 4; scolor darkstone lightstone stone brick;
+rect 24 16 8 4; scolor darkstone lightstone stone brick;
+rect 24 20 8 4; scolor darkstone lightstone stone brick;
+rect 24 24 8 4; scolor darkstone lightstone stone brick;
+rect 24 28 8 4; scolor darkstone lightstone stone brick;

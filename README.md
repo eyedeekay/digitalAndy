@@ -7,6 +7,12 @@ college. You take a plain text file containing the rules required to generate
 your png file, and you feed it to a program which picks it apart and creates an
 image within some more-or-less tunable parameters.
 
+Background:
+-----------
+
+I've been working on a video game for a long time which makes use of procedural
+content generation.
+
 How it works:
 -------------
 
