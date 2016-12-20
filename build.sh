@@ -4,7 +4,7 @@ rm skel/*.txt.folder/ -rf
 go build dandy.go
 for files in $(find skel -name *.txt); do
   mkdir output
-  for ((x = 0 ; x <= 10 ; x++)); do
+  for ((x = 0 ; x <= 3 ; x++)); do
     echo "path=skel/colors.txt" > config.txg
     echo "path=$files" >> config.txg
     echo $x

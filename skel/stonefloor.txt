@@ -1,0 +1,12 @@
+rect 0 0 24 32; scolor darkstone lightstone stone;
+
+rect 24 0 8 24; scolor darkstone lightstone stone;
+rect 24 8 8 24; scolor darkstone lightstone stone;
+
+rect 8 0 24 24; scolor darkstone lightstone stone;
+rect 8 24 24 16; scolor darkstone lightstone stone;
+
+rect 16 0 16 24; scolor darkstone lightstone stone;
+rect 16 8 16 24; scolor darkstone lightstone stone;
+
+rect 0 16 24 16; scolor darkstone lightstone stone;

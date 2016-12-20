@@ -1,5 +1,6 @@
 package main
 
+//import "golang.org/x/mobile/app"
 import "bufio"
 import "fmt"
 import "flag"
@@ -28,7 +29,7 @@ func readConfig(config string)(error, []string){
         }
 	fmt.Printf("%v", err)
 	return err, result
-	
+
 }
 
 func splitString(line string)([]string){
@@ -277,6 +278,43 @@ func selectRound(element string)([][]int){
 	}
 	return coords
 }
+
+/*func selectTriangle(element string)([][]int){
+        var pointCoords []string
+	var coords [][]int
+	if strings.Contains(element, "tria") {
+		cleaned := strings.Replace(element, "rect", "", -1)
+		pointCoords = splitWord(cleaned)
+		pX,_ := strconv.ParseInt(pointCoords[0], 10, 8)
+		pY,_ := strconv.ParseInt(pointCoords[1], 10, 8)
+		pW,_ := strconv.ParseInt(pointCoords[2], 10, 8)
+		pH,_ := strconv.ParseInt(pointCoords[3], 10, 8)
+		for Y := int(pY); Y < int(pY) + int(pH); Y++ {
+			for X := int(pX); X < int(pX) + int(pW); X++ {
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
+			}
+		}
+	}else if strings.Contains(element, "Tria") {
+		cleaned := strings.Replace(element, "Rect", "", -1)
+		pointCoords = splitWord(cleaned)
+		pX,_ := strconv.ParseInt(pointCoords[0], 10, 8)
+		pY,_ := strconv.ParseInt(pointCoords[1], 10, 8)
+		pW,_ := strconv.ParseInt(pointCoords[2], 10, 8)
+		pH,_ := strconv.ParseInt(pointCoords[3], 10, 8)
+		for Y := int(pY); Y < int(pY) + int(pH); Y++ {
+			for X := int(pX); X < int(pX) + int(pW); X++ {
+				var tcoords []int
+				tcoords = append(tcoords, X)
+				tcoords = append(tcoords, Y)
+				coords = append(coords, tcoords)
+			}
+		}
+	}
+	return coords
+}*/
 
 func runSkeleton(skel string, colorlist *[][]string)(error){
 	err, arr := readConfig(skel)
