@@ -3,7 +3,6 @@ package main
 //import "golang.org/x/mobile/app"
 import "bufio"
 import "fmt"
-import "flag"
 import "image"
 import "image/color"
 import "image/png"
@@ -402,9 +401,3 @@ func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 	return result
 }
 
-func main(){
-	opts := flag.String("conf","config.txg","path to a configuration file")
-	confErr, configArray := readConfig(*opts)
-	var colors [][]string
-	loopConfigs(confErr, configArray, &colors)
-}
