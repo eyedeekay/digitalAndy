@@ -1,0 +1,5 @@
+gomobile: go build -pkgdir=/home/idk/.go/bin/pkg/gomobile/pkg_android_arm -tags="" -buildmode=c-shared -o /tmp/gomobile-work-126196601/lib/armeabi-v7a/libandroid.so ./android/ failed: exit status 2
+# _/home/idk/Projects/digitalandy/android
+android/point.go:32: syntax error: unexpected =, expecting comma or }
+
+make: *** [droid] Error 1

@@ -1,7 +1,7 @@
 reg:
 	go build ./
 droid:
-	gomobile build ./android/
+	gomobile build -o digitalandy.apk ./android/
 
 all:
 	make reg
