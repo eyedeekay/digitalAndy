@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Dex-Location: classes.dex
+Created-By: 1.0 (Go)
+
+Name: AndroidManifest.xml
+SHA1-Digest: +lRYw4PPjwY9654vilmXXlVWaQM=
+
+Name: classes.dex
+SHA1-Digest: OV3No+6gEgGcbP1aVMxitiMzONo=
+
+Name: lib/armeabi-v7a/libandroid.so
+SHA1-Digest: 71i9W9QRp7mUqAvYbpNu+YQvBk8=
+
+Name: lib/arm64-v8a/libandroid.so
+SHA1-Digest: gLBKkjSCO1+aGgVEK+DsXkUbHCA=
+
+Name: lib/x86/libandroid.so
+SHA1-Digest: Xvbe93KqB82B7W/wwi0V8D9cGaQ=
+
+Name: lib/x86_64/libandroid.so
+SHA1-Digest: QYJ3Gt2GPHqMHni9e2GHcM7hGYw=
+

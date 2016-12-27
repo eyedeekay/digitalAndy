@@ -1,0 +1,22 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Go)
+SHA1-Digest-Manifest: sWV7FGpj0kxFqSd5QN+YRxhfE+A=
+
+Name: AndroidManifest.xml
+SHA1-Digest: D4IvMKe8za9c/N1qzKO1B0RjYUo=
+
+Name: classes.dex
+SHA1-Digest: B5jiXTkowzvHPEmwPXzRQ6rLAHg=
+
+Name: lib/armeabi-v7a/libandroid.so
+SHA1-Digest: a+/WUV5IxWMdvRc7Dq01pGAiz14=
+
+Name: lib/arm64-v8a/libandroid.so
+SHA1-Digest: OFXt6TruCW22KLrjvovWbTkpLw0=
+
+Name: lib/x86/libandroid.so
+SHA1-Digest: 18lNbv/etkyWLUOZPWHOd17Xz70=
+
+Name: lib/x86_64/libandroid.so
+SHA1-Digest: rbFGFCFY6rbVKNnrnnVLXS2sKpQ=
+

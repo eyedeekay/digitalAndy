@@ -1,0 +1,112 @@
+--------- beginning of system
+I/ActivityManager(  425): Start proc 2588:com.svox.pico/u0a36 for broadcast com.svox.pico/.VoiceDataInstallerReceiver
+I/ActivityManager(  425): Killing 2247:biz.bokhorst.xprivacy/u0a76 (adj 15): empty #9
+D/ActivityManager(  425): cleanUpApplicationRecord -- 2247
+I/ActivityManager(  425): Start proc 2604:com.android.gallery3d/u0a18 for broadcast com.android.gallery3d/.app.PackagesMonitor
+I/ActivityManager(  425): Killing 2403:info.guardianproject.orfox/u0a83 (adj 15): empty #9
+--------- beginning of main
+D/AndroidRuntime( 2583): >>>>>> START com.android.internal.os.RuntimeInit uid 0 <<<<<<
+D/AndroidRuntime( 2583): CheckJNI is OFF
+D/ActivityManager(  425): cleanUpApplicationRecord -- 2403
+I/ActivityManager(  425): Start proc 2629:de.robv.android.xposed.installer/u0a75 for broadcast de.robv.android.xposed.installer/.PackageChangeReceiver
+E/memtrack( 2583): Couldn't load memtrack module (No such file or directory)
+E/android.os.Debug( 2583): failed to load memtrack module: -2
+I/ActivityManager(  425): Killing 1845:org.fdroid.fdroid/u0a69 (adj 15): empty #9
+D/WifiService(  425): Client connection lost with reason: 4
+D/AndroidRuntime( 2583): Calling main entry com.android.commands.am.Am
+D/ActivityManager(  425): cleanUpApplicationRecord -- 1845
+I/ActivityManager(  425): START u0 {flg=0x10000000 cmp=org.golang.todo.android/org.golang.app.GoNativeActivity} from uid 0 on display 0
+V/WindowManager(  425): addAppToken: AppWindowToken{cd28037 token=Token{10f5b936 ActivityRecord{a744ad1 u0 org.golang.todo.android/org.golang.app.GoNativeActivity t192}}} to stack=1 task=192 at 0
+D/AndroidRuntime( 2583): Shutting down VM
+V/WindowManager(  425): Adding window Window{1a44693c u0 Starting org.golang.todo.android} at 2 of 7 (after Window{3fa9bda5 u0 com.cyanogenmod.trebuchet/com.android.launcher3.Launcher})
+I/ActivityManager(  425): Start proc 2651:org.golang.todo.android/u0a99 for activity org.golang.todo.android/org.golang.app.GoNativeActivity
+I/art     ( 2651): Late-enabling -Xcheck:jni
+I/ActivityManager(  425): Start proc 2667:biz.bokhorst.xprivacy/u0a76 for broadcast biz.bokhorst.xprivacy/.PackageChange
+I/ActivityManager(  425): Killing 2456:com.android.documentsui/u0a19 (adj 15): empty #9
+D/ActivityManager(  425): cleanUpApplicationRecord -- 2456
+W/XPrivacy( 2667): No client for uid=0 /Log=null uid=10076 pid=2667
+W/XPrivacy( 2667): java.lang.Exception: StackTrace
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.er.d(SourceFile:269)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.en.a(SourceFile:806)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.en.c(SourceFile:781)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.en.b(SourceFile:773)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.fy.a(SourceFile:82)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.ApplicationEx.onCreate(SourceFile:13)
+W/XPrivacy( 2667): 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1012)
+W/XPrivacy( 2667): 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:4593)
+W/XPrivacy( 2667): 	at android.app.ActivityThread.access$1600(ActivityThread.java:154)
+W/XPrivacy( 2667): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1382)
+W/XPrivacy( 2667): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/XPrivacy( 2667): 	at android.os.Looper.loop(Looper.java:135)
+W/XPrivacy( 2667): 	at android.app.ActivityThread.main(ActivityThread.java:5294)
+W/XPrivacy( 2667): 	at java.lang.reflect.Method.invoke(Native Method)
+W/XPrivacy( 2667): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/XPrivacy( 2667): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:904)
+W/XPrivacy( 2667): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:699)
+W/XPrivacy( 2667): UI started
+W/XPrivacy( 2667): No client for uid=0 /OnDemand=null uid=10076 pid=2667
+W/XPrivacy( 2667): java.lang.Exception: StackTrace
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.er.d(SourceFile:269)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.en.a(SourceFile:806)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.en.c(SourceFile:781)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.en.b(SourceFile:773)
+W/XPrivacy( 2667): 	at biz.bokhorst.xprivacy.PackageChange.onReceive(SourceFile:24)
+W/XPrivacy( 2667): 	at android.app.ActivityThread.handleReceiver(ActivityThread.java:2642)
+W/XPrivacy( 2667): 	at android.app.ActivityThread.access$1800(ActivityThread.java:154)
+W/XPrivacy( 2667): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1398)
+W/XPrivacy( 2667): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+W/XPrivacy( 2667): 	at android.os.Looper.loop(Looper.java:135)
+W/XPrivacy( 2667): 	at android.app.ActivityThread.main(ActivityThread.java:5294)
+W/XPrivacy( 2667): 	at java.lang.reflect.Method.invoke(Native Method)
+W/XPrivacy( 2667): 	at java.lang.reflect.Method.invoke(Method.java:372)
+W/XPrivacy( 2667): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:904)
+W/XPrivacy( 2667): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:699)
+W/XPrivacy( 2667): Package change action=android.intent.action.PACKAGE_ADDED replacing=false uid=10099
+W/NativeActivity( 2651): ANativeActivity_onCreate not found
+D/AndroidRuntime( 2651): Shutting down VM
+--------- beginning of crash
+E/AndroidRuntime( 2651): FATAL EXCEPTION: main
+E/AndroidRuntime( 2651): Process: org.golang.todo.android, PID: 2651
+E/AndroidRuntime( 2651): java.lang.RuntimeException: Unable to start activity ComponentInfo{org.golang.todo.android/org.golang.app.GoNativeActivity}: java.lang.IllegalArgumentException: Unable to load native library: /data/app/org.golang.todo.android-1/lib/arm/libandroid.so
+E/AndroidRuntime( 2651): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2358)
+E/AndroidRuntime( 2651): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2420)
+E/AndroidRuntime( 2651): 	at android.app.ActivityThread.access$900(ActivityThread.java:154)
+E/AndroidRuntime( 2651): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1321)
+E/AndroidRuntime( 2651): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+E/AndroidRuntime( 2651): 	at android.os.Looper.loop(Looper.java:135)
+E/AndroidRuntime( 2651): 	at android.app.ActivityThread.main(ActivityThread.java:5294)
+E/AndroidRuntime( 2651): 	at java.lang.reflect.Method.invoke(Native Method)
+E/AndroidRuntime( 2651): 	at java.lang.reflect.Method.invoke(Method.java:372)
+E/AndroidRuntime( 2651): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:904)
+E/AndroidRuntime( 2651): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:699)
+E/AndroidRuntime( 2651): Caused by: java.lang.IllegalArgumentException: Unable to load native library: /data/app/org.golang.todo.android-1/lib/arm/libandroid.so
+E/AndroidRuntime( 2651): 	at android.app.NativeActivity.onCreate(NativeActivity.java:182)
+E/AndroidRuntime( 2651): 	at org.golang.app.GoNativeActivity.onCreate(GoNativeActivity.java:65)
+E/AndroidRuntime( 2651): 	at android.app.Activity.performCreate(Activity.java:5990)
+E/AndroidRuntime( 2651): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1106)
+E/AndroidRuntime( 2651): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2311)
+E/AndroidRuntime( 2651): 	... 10 more
+I/ActivityManager(  425): Start proc 2684:org.fdroid.fdroid/u0a69 for broadcast org.fdroid.fdroid/.receiver.PackageManagerReceiver
+I/ActivityManager(  425): Killing 2473:com.android.externalstorage/u0a3 (adj 15): empty #9
+D/ActivityManager(  425): cleanUpApplicationRecord -- 2473
+W/ActivityManager(  425):   Force finishing activity 1 org.golang.todo.android/org.golang.app.GoNativeActivity
+W/SurfaceFlinger(  132): captureScreen: error creating EGL fence: 0x3004
+W/linker  (  425): libpvrANDROID_WSEGL_SGX540_120.so: unused DT entry: type 0xf arg 0x112
+I/OpenGLRenderer(  425): Initialized EGL, version 1.4
+I/ACRA    ( 2684): ACRA is enabled for org.fdroid.fdroid, initializing...
+D/BluetoothManagerService(  425): Message: 20
+D/BluetoothManagerService(  425): Added callback: android.bluetooth.IBluetoothManagerCallback$Stub$Proxy@2a64aa04:true
+D/WifiService(  425): New client listening to asynchronous messages
+W/ActivityManager(  425): Activity pause timeout for ActivityRecord{a744ad1 u0 org.golang.todo.android/org.golang.app.GoNativeActivity t192 f}
+I/Timeline(  853): Timeline: Activity_idle id: android.os.BinderProxy@b826a38 time:453487
+I/ActivityManager(  425): Killing 2504:com.cyanogenmod.lockclock/u0a25 (adj 15): empty #9
+D/ActivityManager(  425): cleanUpApplicationRecord -- 2504
+I/Timeline(  425): Timeline: Activity_windows_visible id: ActivityRecord{e604e22 u0 com.cyanogenmod.trebuchet/com.android.launcher3.Launcher t189} time:453767
+W/OpenGLRenderer(  853): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/OpenGLRenderer(  853): Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+W/ResourceType(  506): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  506): Failure retrieving resources for org.golang.todo.android: Resource ID #0x0
+W/ResourceType(  506): No package identifier when getting value for resource number 0x00000000
+W/PackageManager(  506): Failure retrieving resources for org.golang.todo.android: Resource ID #0x0
+I/ActivityManager(  425): Killing 2557:android.process.acore/u0a13 (adj 15): empty #9
+D/ActivityManager(  425): cleanUpApplicationRecord -- 2557
