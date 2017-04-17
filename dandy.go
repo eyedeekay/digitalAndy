@@ -17,7 +17,6 @@ import "time"
 func readConfig(config string)(error, []string){
 	var result []string
 	var err error
-	fmt.Printf("%v\n", config)
 	file, err := os.Open(config)
         if err != nil {
                 return err, nil
@@ -27,7 +26,6 @@ func readConfig(config string)(error, []string){
         for scanner.Scan() {
                 result = append(result, scanner.Text())
         }
-	fmt.Printf("%v", err)
 	return err, result
 
 }
@@ -56,7 +54,6 @@ func splitWord(word string)([]string){
 func loadSkeleton(path string)(error, []string){
 	var result []string
 	var err error
-	//fmt.Printf("%v", path)
 	if strings.Contains(path, "path=") {
 		cleaned := strings.Replace(path, "path=", "", -1)
 		cleaned = strings.Replace(cleaned, ";", "", -1)
@@ -76,14 +73,10 @@ func loadColor(element string)([]string){
 	if strings.Contains(element, "lcolor") {
 		cleaned := strings.Replace(element, "lcolor", "", -1)
 		presult := strings.TrimSpace(cleaned)
-		fmt.Printf("%v", "loading color : ")
-		fmt.Printf("%v\n", presult)
 		loaded = splitWord(presult)
 	}else if strings.Contains(element, "Lcolor") {
 		cleaned := strings.Replace(element, "Lcolor", "", -1)
 		presult := strings.TrimSpace(cleaned)
-		fmt.Printf("%v", "loading color : ")
-		fmt.Printf("%v\n", presult)
 		loaded = splitWord(presult)
 	}else{
 		return loaded
@@ -93,9 +86,6 @@ func loadColor(element string)([]string){
 
 func randomColor(colorwords []string, colorlist [][]string)([]string){
 	var szcw = len(colorwords)
-	var szcl = len(colorlist)
-	fmt.Printf("%v", "color palette : ")
-	fmt.Printf("%v", szcl)
 	var result []string
         r := rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
         var rcolor int = r.Intn(szcw)
@@ -103,8 +93,6 @@ func randomColor(colorwords []string, colorlist [][]string)([]string){
 		if len(item) > 0 {
 			if item[0] == colorwords[rcolor] {
 				result = item
-				fmt.Printf("%v", "selecting color : " )
-				fmt.Printf("%v", colorwords[rcolor])
 				break
 			}
 		}
@@ -114,12 +102,6 @@ func randomColor(colorwords []string, colorlist [][]string)([]string){
 
 func formatColor(picked []string)([]uint8){
 	var result []uint8
-	fmt.Printf("%v", "RGBT : ")
-	for _, i := range picked {
-		fmt.Printf("%v", " : ")
-		fmt.Printf("%v", i)
-	}
-	fmt.Printf("%v\n", " ")
 	var pR,_ = strconv.ParseUint(picked[1],10,8)
 	result = append(result, uint8(pR))
 	var pG,_ = strconv.ParseUint(picked[2],10,8)
@@ -136,21 +118,16 @@ func selectColor(element string, colorlist [][]string)([]uint8){
 	if strings.Contains(element, "scolor") {
 		cleaned := strings.Replace(element, "scolor", "", -1)
 		colorWords := splitWord(cleaned)
-		fmt.Printf("%v", "color selections : ")
-		fmt.Printf("%v", cleaned)
 		elect = formatColor(randomColor(colorWords, colorlist))
 	}else if strings.Contains(element, "Scolor") {
 		cleaned := strings.Replace(element, "Scolor", "", -1)
 		colorWords := splitWord(cleaned)
-		fmt.Printf("%v", "color selections : ")
-		fmt.Printf("%v", cleaned)
 		elect = formatColor(randomColor(colorWords, colorlist))
 	}
 	return elect
 }
 
 func selectPoint(element string)([][]int){
-	//fmt.Printf("%v\n", element)
 	var pointCoords []string
 	var coords [][]int
 	if strings.Contains(element, "point") {
@@ -318,7 +295,7 @@ func selectRound(element string)([][]int){
 
 func runSkeleton(skel string, colorlist *[][]string)(error){
 	err, arr := readConfig(skel)
-	//fmt.Printf("%v\n", skel)
+	////fmt.Printf("%v\n", skel)
 	loopConfigs(err, arr, colorlist)
 	return err
 }
@@ -329,7 +306,7 @@ func runLine(line string, colorlist *[][]string)([]uint8, [][][]int){
 	var colorResult []uint8
 	seg := splitString(line)
 	for _, word := range seg {
-		fmt.Printf("%v\n", word)
+		//fmt.Printf("%v\n", word)
 		la := loadColor(word)
 		if len(la) > 0 {
 			*colorlist = append(*colorlist, la)
@@ -354,33 +331,19 @@ func runLine(line string, colorlist *[][]string)([]uint8, [][][]int){
 	return colorResult, coordResult
 }
 
-func RandStringBytes() string {
-	const letterBytes = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	b := make([]byte, 10)
-	r := rand.New(rand.NewSource(time.Now().UTC().UnixNano()))
-	for i := range b {
-		b[i] = letterBytes[r.Intn(len(letterBytes))]
-	}
-	return string(b)
-}
-
 func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 	img := image.NewRGBA(image.Rect(0, 0, 32, 32))
 	var sz = len(strlist)
 	var result int
 	for i, item := range strlist {
-		//fmt.Printf("%v\n", item)
 		_, temp := loadSkeleton(item)
 		if temp != nil {
 			for _,i := range temp {
 				c,p := runLine(i, colorlist)
-				fmt.Printf("%v", p)
-				fmt.Printf("%v\n", c)
 				if len(p) > 0 {
 					for _, point := range p {
 						if len(point) > 0 {
 							if len(c) > 0 {
-								fmt.Printf("%v", "imageset")
 								for _, x := range point {
 									img.Set(x[0], x[1], color.RGBA{c[0], c[1], c[2], c[3]})
 								}
@@ -390,21 +353,47 @@ func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 				}
 			}
 		}else{
-			//fmt.Printf("%v\n", item)
 			_ = runSkeleton(item, colorlist)
 		}
 		result = sz - i
 	}
-	var name =  "output/" + RandStringBytes()+ ".png"
         f, _ := os.OpenFile(name, os.O_WRONLY|os.O_CREATE, 0600)
         defer f.Close()
         png.Encode(f, img)
 	return result
 }
 
+var outdir string
+var name string
+
 func main(){
-	opts := flag.String("conf","config.txg","path to a configuration file")
-	confErr, configArray := readConfig(*opts)
+        incl := flag.String("incl","skel/colors.txt","path to a description file")
+        desc := flag.String("desc","skel/colortest.txt","path to a description file")
+        conf := flag.String("conf","config.txg","path to a config file")
+        diro := flag.String("dir",".","directory to save files")
+        filo := flag.String("name", "file.png", "file name to save")
+        flag.Parse()
+        var configArray []string
+        var confErr error
+        if configArray == nil {
+                confErr, configArray = readConfig(*conf)
+                fmt.Printf("file-based config location: %v\n", *conf)
+        }
+        if desc != nil {
+                if incl != nil {
+                        fmt.Printf("include descriptions: %v\n", *incl)
+                        fmt.Printf("item descriptions: %v\n", *desc)
+                        configArray = append(configArray, "path=" + *incl)
+                        configArray = append(configArray, "path=" + *desc)
+                }else{
+                        fmt.Printf("item descriptions: %v\n", *desc)
+                        configArray = append(configArray, "path=" + *desc)
+                }
+        }
+        outdir = *diro + "/"
+        fmt.Printf("output directory: %v\n", outdir)
+        name = outdir + *filo
+        fmt.Printf("file name: %v\n", name)
 	var colors [][]string
 	loopConfigs(confErr, configArray, &colors)
 }
