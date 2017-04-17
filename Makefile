@@ -16,6 +16,7 @@ install:
 	cp skel/*.txt $(DESTDIR)$(PREFIX)/usr/share/digitalandy/skel/
 
 deb-pkg:
+	make
 	checkinstall --install=no \
 		--default \
 		--pkgname=digitalandy \
