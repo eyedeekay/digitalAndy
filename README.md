@@ -41,3 +41,15 @@ dandy, which takes config.txg and uses the rules to generate a single piece of
 art in the output/ folder with a random filename. It's then possible to write
 scripts which generate large numbers of pieces of art from a single rule like
 in the example scripts(build.sh and rename.sh).
+
+To-Do List/Ongoing Improvements:
+--------------------------------
+
+More shapes(Triangles, then Ellipses)
+
+Per-OS wrapper Scripts, launchers, interfaces as appropriate(Run on Windows,
+OSX, Android)
+
+Add into Jenkins
+
+Integrate into web site
