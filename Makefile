@@ -12,6 +12,7 @@ install:
 	cp dandy $(DESTDIR)$(PREFIX)/usr/bin/
 	cp digitalandy $(DESTDIR)$(PREFIX)/usr/bin/
 	mkdir -p $(DESTDIR)$(PREFIX)/usr/share/digitalandy/skel
+	cp dandy.cfg $(DESTDIR)$(PREFIX)/usr/share/digitalandy/dandy.cfg
 	cp config.txg $(DESTDIR)$(PREFIX)/usr/share/digitalandy
 	cp skel/*.txt $(DESTDIR)$(PREFIX)/usr/share/digitalandy/skel/
 

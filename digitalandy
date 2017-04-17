@@ -1,1 +1,31 @@
 #! /bin/sh
+TMP="dandy "
+CWD=$(pwd)
+if [ -f "/usr/share/digitalandy/dandy.cfg" ]; then
+        echo "found standard settings"
+        . /usr/share/digitalandy/dandy.cfg
+fi
+if [ ! -z "$INCLUDE" ]; then
+        TMP="$TMP -incl=$INCLUDE "
+fi
+if [ ! -z "$DESCRIBE" ]; then
+        TMP="$TMP -desc=$DESCRIBE "
+fi
+if [ ! -z "$CONFFILE" ]; then
+        TMP="$TMP -conf=$CONFFILE "
+fi
+if [ ! -z "$OUTDIR" ]; then
+        TMP="$TMP -dir=$OUTDIR "
+fi
+if [ ! -z "$FILENAME" ]; then
+        TMP="$TMP -name=$FILENAME "
+fi
+echo ""
+echo $INCLUDE
+echo $DESCRIBE
+echo $CONFFILE
+echo $OUTDIR
+echo $FILENAME
+echo ""
+echo $TMP
+$TMP
