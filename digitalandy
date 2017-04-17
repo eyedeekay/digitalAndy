@@ -5,15 +5,43 @@ if [ -f "/usr/share/digitalandy/dandy.cfg" ]; then
         echo "found standard settings"
         . /usr/share/digitalandy/dandy.cfg
 fi
+
+while getopts ":idcof" opt; do
+  case $opt in
+    i)
+      echo "-i : $OPTARG" >&2
+      INCLUDE="$OPTARG"
+      ;;
+    d)
+      echo "-d : $OPTARG" >&2
+      DESCRIBE="$OPTARG"
+      ;;
+    c)
+      echo "-c : $OPTARG" >&2
+      CONFFILE="$OPTARG"
+      T=true
+      ;;
+    o)
+      echo "-o : $OPTARG" >&2
+      OUTDIR="$OPTARG"
+      ;;
+    f)
+      echo "-f : $OPTARG" >&2
+      FILENAME="$OPTARG"
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      ;;
+  esac
+done
+
 if [ ! -z "$INCLUDE" ]; then
         TMP="$TMP -incl=$INCLUDE "
 fi
 if [ ! -z "$DESCRIBE" ]; then
         TMP="$TMP -desc=$DESCRIBE "
 fi
-if [ ! -z "$CONFFILE" ]; then
-        TMP="$TMP -conf=$CONFFILE "
-fi
+TMP="$TMP -conf=$CONFFILE "
 if [ ! -z "$OUTDIR" ]; then
         TMP="$TMP -dir=$OUTDIR "
 fi

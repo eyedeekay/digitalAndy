@@ -6,7 +6,7 @@ app:
 	go build dandy.go
 
 clean:
-	rm *.out output/*.png dandy skel/*.txt.folder/ output *-pak -rf
+	rm *.out *.png output/*.png dandy skel/*.txt.folder/ output *-pak -rf
 
 install:
 	cp dandy $(DESTDIR)$(PREFIX)/usr/bin/
