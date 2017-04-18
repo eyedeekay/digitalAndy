@@ -28,4 +28,6 @@ deb-pkg:
 		--pakdir=../
 
 apk-pkg:
-	gomobile build ./
+	sed -i 's|//import "golang.org/x/mobile/app"|import "golang.org/x/mobile/app"|g' dandy.go
+	gomobile build ./ ; \
+	sed -i 's|import "golang.org/x/mobile/app"|//import "golang.org/x/mobile/app"|g' dandy.go
