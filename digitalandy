@@ -30,7 +30,18 @@ while getopts ":idcof" opt; do
       FILENAME="$OPTARG"
       ;;
     \?)
-      echo "Invalid option: -$OPTARG" >&2
+      echo "     D   I   G   I   T   A   L   A   N   D   Y     "
+      echo "==================================================="
+      echo "  -----------------------------------------------  "
+      echo "This program generates simple art from rules files."
+      echo "  These are the options available"
+      echo "::::::::::::::::::"
+      echo "-i: include this rules file (examples in /usr/share/digitalandy)"
+      echo "-d: generate image using this rules file"
+      echo "-c: use this config file to generate rules(optional)"
+      echo "    (example in /user/share/digitalandy/config.txg"
+      echo "-o: output the file into this directory"
+      echo "-f: use this filename for the output"
       ;;
   esac
 done
