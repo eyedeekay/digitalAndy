@@ -42,6 +42,7 @@ while getopts ":idcof" opt; do
       echo "    (example in /user/share/digitalandy/config.txg"
       echo "-o: output the file into this directory"
       echo "-f: use this filename for the output"
+      exit 0
       ;;
   esac
 done
