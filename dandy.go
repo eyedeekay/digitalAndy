@@ -17,8 +17,10 @@ import "time"
 func readConfig(config string)(error, []string){
 	var result []string
 	var err error
+        fmt.Printf("Reading Config file: %v\n", config)
 	file, err := os.Open(config)
         if err != nil {
+                fmt.Printf(err.Error())
                 return err, nil
         }
 	defer file.Close()
@@ -337,15 +339,19 @@ func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 	var result int
 	for i, item := range strlist {
 		_, temp := loadSkeleton(item)
+                fmt.Printf("%v\n", temp)
 		if temp != nil {
 			for _,i := range temp {
+                                fmt.Printf(" %v\n", i)
 				c,p := runLine(i, colorlist)
 				if len(p) > 0 {
 					for _, point := range p {
+                                                fmt.Printf( "%v\n", c, p)
 						if len(point) > 0 {
 							if len(c) > 0 {
 								for _, x := range point {
 									img.Set(x[0], x[1], color.RGBA{c[0], c[1], c[2], c[3]})
+                                                                        //fmt.Printf("%v\n", "nom:")
 								}
 							}
 						}
@@ -375,9 +381,11 @@ func main(){
         flag.Parse()
         var configArray []string
         var confErr error
-        if configArray == nil {
-                confErr, configArray = readConfig(*conf)
-                fmt.Printf("file-based config location: %v\n", *conf)
+        if(*conf != ""){
+                if configArray == nil {
+                        confErr, configArray = readConfig(*conf)
+                        fmt.Printf("file-based config location: %v\n", *conf)
+                }
         }
         if desc != nil {
                 if incl != nil {
@@ -390,10 +398,15 @@ func main(){
                         configArray = append(configArray, "path=" + *desc)
                 }
         }
+        for i, item := range configArray{
+                fmt.Printf("%v\n", i)
+                fmt.Printf("%v\n", item)
+        }
         outdir = *diro + "/"
         fmt.Printf("output directory: %v\n", outdir)
         name = outdir + *filo
         fmt.Printf("file name: %v\n", name)
 	var colors [][]string
 	loopConfigs(confErr, configArray, &colors)
+        fmt.Printf("Created File: %v\n", name)
 }
