@@ -10,9 +10,10 @@ for file in $(find /usr/share/digitalandy/skel/ -name *.txt); do
                         dandy -incl=/usr/share/digitalandy/skel/colors.txt \
                            -desc="$file" \
                            -dir=skel/$FOLDER \
-                           -name=$FOLDER-$VAR.png
+                           -name=$FOLDER-$VAR.png \
+                           1> /dev/null
                         VAR=$((VAR + 1))
-                        echo $FOLDER-$VAR
+                        echo $FOLDER-$VAR.png
                 done
         fi
 done
