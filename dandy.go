@@ -295,10 +295,10 @@ func selectRound(element string)([][]int){
 	return coords
 }*/
 
-func runSkeleton(skel string, colorlist *[][]string)(error){
+func runSkeleton(skel string, colorlist *[][]string, square int)(error){
 	err, arr := readConfig(skel)
 	////fmt.Printf("%v\n", skel)
-	loopConfigs(err, arr, colorlist)
+	loopConfigs(err, arr, colorlist, square)
 	return err
 }
 
@@ -333,8 +333,8 @@ func runLine(line string, colorlist *[][]string)([]uint8, [][][]int){
 	return colorResult, coordResult
 }
 
-func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
-	img := image.NewRGBA(image.Rect(0, 0, 32, 32))
+func loopConfigs(err error, strlist []string, colorlist *[][]string, square int)(int){
+	img := image.NewRGBA(image.Rect(0, 0, square, square))
 	var sz = len(strlist)
 	var result int
 	for i, item := range strlist {
@@ -359,7 +359,7 @@ func loopConfigs(err error, strlist []string, colorlist *[][]string)(int){
 				}
 			}
 		}else{
-			_ = runSkeleton(item, colorlist)
+			_ = runSkeleton(item, colorlist, square)
 		}
 		result = sz - i
 	}
@@ -378,6 +378,7 @@ func main(){
         conf := flag.String("conf","config.txg","path to a config file")
         diro := flag.String("dir",".","directory to save files")
         filo := flag.String("name", "file.png", "file name to save")
+        squr := flag.Int("squr", 32, "size of pixel squares")
         flag.Parse()
         var configArray []string
         var confErr error
@@ -398,6 +399,7 @@ func main(){
                         configArray = append(configArray, "path=" + *desc)
                 }
         }
+        fmt.Printf("Generating %vx%v image segment", squr)
         for i, item := range configArray{
                 fmt.Printf("%v\n", i)
                 fmt.Printf("%v\n", item)
@@ -407,6 +409,6 @@ func main(){
         name = outdir + *filo
         fmt.Printf("file name: %v\n", name)
 	var colors [][]string
-	loopConfigs(confErr, configArray, &colors)
+	loopConfigs(confErr, configArray, &colors, *squr)
         fmt.Printf("Created File: %v\n", name)
 }
